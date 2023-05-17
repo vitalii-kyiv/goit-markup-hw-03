@@ -1,0 +1,274 @@
+:root {
+  --first-title-color: #2e2f42;
+  --second-title-color: #ffffff;
+  --first-background-color: #ffffff;
+  --second-background-color: #2e2f42;
+  --third-background-color: #f4f4fd;
+  --first-text-color: #434455;
+  --second-text-color: #f4f4fd;
+  --third-text-color: #4d5ae5;
+  --first-btn-color: #ffffff;
+  --second-btn-color: #404bbf;
+  --logo-color: #4d5ae5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: var(--first-background-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.main-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.second-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.third-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+/**-------------- HEADER------------------ */
+
+.header {
+  background-color: var(--first-background-color);
+}
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.header-logo-web {
+  color: var(--first-title-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--first-title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
+
+.header-adress {
+  font-style: normal;
+}
+
+.header-adress-list {
+}
+
+.header-adress-link {
+  color: var(--first-text-color);
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: #404bbf;
+}
+
+/**MAIN-------------- HERO------------------ */
+.hero {
+  background-color: var(--second-background-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--first-btn-color);
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/**MAIN-------------- SOLUTIONS------------------ */
+.solutions-title {
+}
+
+.solutions-list {
+}
+
+.solitions-item {
+}
+
+.solutions-second-title {
+  color: var(--first-title-color);
+}
+
+.solutions-text {
+  color: var(--first-text-color);
+}
+
+/**MAIN-------------- ABOUT------------------ */
+.about {
+}
+
+.about-title {
+  color: var(--first-title-color);
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+/**MAIN-------------- TEAM------------------ */
+.team {
+  background-color: var(--third-background-color);
+}
+
+.team-title {
+  color: var(--first-title-color);
+}
+
+.team-list {
+}
+
+.list {
+}
+
+.team-item {
+  background-color: var(--first-background-color);
+}
+
+.team-item-title {
+  color: var(--first-title-color);
+}
+
+.team-item-text {
+  color: var(--first-text-color);
+}
+
+/**-------------- FOOTER------------------ */
+.footer {
+  background-color: var(--second-background-color);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.link {
+}
+
+.footer-logo-web {
+  color: var(--second-text-color);
+}
+
+.footer-text {
+  color: var(--second-text-color);
+}
+
+/**PORTFOLIO-------------- MAIN------------------ */
+.filter {
+}
+
+.filter-title {
+}
+
+.filter-list {
+}
+
+.list {
+}
+
+.filter-item {
+}
+
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--third-text-color);
+  background-color: var(--second-text-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--second-title-color);
+  background-color: var(--second-btn-color);
+}
+
+.examples-list {
+}
+
+.examples-item {
+}
+
+.examples-link {
+}
+
+.link {
+}
+
+.examples-image {
+}
+
+.examples-item-title {
+  color: var(--first-title-color);
+}
+
+.examples-text {
+  color: var(--first-text-color);
+}
