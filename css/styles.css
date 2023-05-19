@@ -77,8 +77,6 @@ img {
 
 .header {
   background-color: var(--first-background-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -108,6 +106,8 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo-web {
@@ -149,15 +149,14 @@ img {
 
 /**MAIN-------------- HERO------------------ */
 .hero {
-  width: 1440px;
-  height: 600px;
   background-color: var(--second-background-color);
 }
 
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 64px;
   padding-top: 188px;
+  padding-bottom: 188px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -166,13 +165,16 @@ img {
 }
 
 .hero-btn {
-  width: 169px;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  min-width: 169px;
   height: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--first-btn-color);
@@ -187,9 +189,16 @@ img {
 
 /**MAIN-------------- SOLUTIONS------------------ */
 .solutions-title {
+  margin-bottom: 8px;
+}
+.container-solutions {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .solutions-list {
+  display: flex;
+  gap: 24px;
 }
 
 .solitions-item {
@@ -205,13 +214,17 @@ img {
 
 /**MAIN-------------- ABOUT------------------ */
 .about {
+  padding-bottom: 120px;
 }
 
 .about-title {
   color: var(--first-title-color);
+  margin-bottom: 72px;
 }
 
 .about-list {
+  display: flex;
+  gap: 24px;
 }
 
 .about-item {
@@ -220,13 +233,24 @@ img {
 /**MAIN-------------- TEAM------------------ */
 .team {
   background-color: var(--third-background-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
   color: var(--first-title-color);
+  margin-bottom: 72px;
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
 }
 
 .list {
@@ -238,6 +262,7 @@ img {
 
 .team-item-title {
   color: var(--first-title-color);
+  margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -247,9 +272,13 @@ img {
 /**-------------- FOOTER------------------ */
 .footer {
   background-color: var(--second-background-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -257,6 +286,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .link {
@@ -268,6 +299,7 @@ img {
 
 .footer-text {
   color: var(--second-text-color);
+  max-width: 264px;
 }
 
 /**PORTFOLIO-------------- MAIN------------------ */
