@@ -304,12 +304,18 @@ img {
 
 /**PORTFOLIO-------------- MAIN------------------ */
 .filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filter-title {
 }
 
 .filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .list {
@@ -330,6 +336,8 @@ img {
   color: var(--third-text-color);
   background-color: var(--second-text-color);
   cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .filter-btn:hover,
@@ -339,6 +347,15 @@ img {
 }
 
 .examples-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.examples-list-conteiner {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .examples-item {
@@ -355,6 +372,7 @@ img {
 
 .examples-item-title {
   color: var(--first-title-color);
+  margin-bottom: 8px;
 }
 
 .examples-text {
