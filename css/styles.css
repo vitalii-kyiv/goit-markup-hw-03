@@ -79,6 +79,8 @@ img {
 .header {
   background-color: var(--first-background-color);
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-contaiber {
@@ -106,8 +108,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-logo-web {
