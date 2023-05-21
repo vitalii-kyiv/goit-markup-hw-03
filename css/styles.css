@@ -137,6 +137,8 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-adress-link {
@@ -191,12 +193,11 @@ img {
 }
 
 /**MAIN-------------- SOLUTIONS------------------ */
-.solutions-title {
-}
-
 .solutions {
-  padding-top: 120x;
+  padding-top: 120px;
   padding-bottom: 120px;
+}
+.solutions-title {
 }
 
 .container-solutions {
