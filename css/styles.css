@@ -89,6 +89,8 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -100,8 +102,6 @@ img {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-list {
