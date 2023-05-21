@@ -100,7 +100,6 @@ img {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
-  margin-left: 156px;
 }
 
 .header-list {
@@ -131,14 +130,14 @@ img {
 .header-adress {
   font-style: normal;
   margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-adress-list {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-adress-link {
