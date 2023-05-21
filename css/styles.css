@@ -71,6 +71,7 @@ img {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
+  outline: 2px solid red;
 }
 
 /**-------------- HEADER------------------ */
@@ -150,13 +151,15 @@ img {
 /**MAIN-------------- HERO------------------ */
 .hero {
   background-color: var(--second-background-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
   max-width: 496px;
   margin-bottom: 64px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  margin-right: auto;
+  margin-left: auto;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -174,7 +177,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
+  margin: 0 auto;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--first-btn-color);
@@ -192,7 +195,7 @@ img {
   margin-bottom: 8px;
 }
 .container-solutions {
-  padding-top: 120px;
+  padding-top: 120x;
   padding-bottom: 120px;
 }
 
@@ -214,7 +217,11 @@ img {
 
 /**MAIN-------------- ABOUT------------------ */
 .about {
+  padding-top: 120x;
   padding-bottom: 120px;
+}
+
+.container-about {
 }
 
 .about-title {
