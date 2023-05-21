@@ -208,12 +208,12 @@ img {
 }
 
 .solitions-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .solutions-second-title {
   color: var(--first-title-color);
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .solutions-text {
