@@ -100,6 +100,8 @@ img {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-list {
@@ -109,8 +111,6 @@ img {
 }
 
 .header-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-logo-web {
