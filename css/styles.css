@@ -79,8 +79,6 @@ img {
 .header {
   background-color: var(--first-background-color);
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-contaiber {
@@ -128,6 +126,7 @@ img {
 }
 
 .header-adress {
+  display: flex;
   font-style: normal;
   margin-left: auto;
 }
@@ -136,12 +135,12 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-adress-link {
   color: var(--first-text-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-adress-link:hover,
