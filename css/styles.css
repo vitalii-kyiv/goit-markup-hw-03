@@ -130,8 +130,6 @@ img {
 .header-adress {
   font-style: normal;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-adress-list {
@@ -142,6 +140,8 @@ img {
 
 .header-adress-link {
   color: var(--first-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-adress-link:hover,
@@ -213,6 +213,7 @@ img {
 .solutions-second-title {
   color: var(--first-title-color);
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .solutions-text {
