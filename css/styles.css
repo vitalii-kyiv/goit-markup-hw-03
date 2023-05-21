@@ -192,11 +192,14 @@ img {
 
 /**MAIN-------------- SOLUTIONS------------------ */
 .solutions-title {
-  margin-bottom: 8px;
 }
-.container-solutions {
+
+.solutions {
   padding-top: 120x;
   padding-bottom: 120px;
+}
+
+.container-solutions {
 }
 
 .solutions-list {
@@ -209,6 +212,7 @@ img {
 
 .solutions-second-title {
   color: var(--first-title-color);
+  margin-bottom: 8px;
 }
 
 .solutions-text {
@@ -255,8 +259,7 @@ img {
 }
 
 .team-list-container {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   text-align: center;
 }
 
@@ -265,6 +268,7 @@ img {
 
 .team-item {
   background-color: var(--first-background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-title {
@@ -345,12 +349,14 @@ img {
   cursor: pointer;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--second-title-color);
   background-color: var(--second-btn-color);
+  border: 1px solid transparent;
 }
 
 .examples-list {
