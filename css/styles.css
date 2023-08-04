@@ -97,7 +97,7 @@ img {
 
 /* <!-- !!!HEADER!!! ---------------------------------------------------------------------------> */
 .header {
-  border-bottom: 1px solid var(--modal-background);
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -301,6 +301,7 @@ img {
 .footer-text {
   color: var(--light-background);
   margin-top: 16px;
+  max-width: 264px;
 }
 
 /* <!-- !!!PORTFOLIO!! ---------------------------------------------------------------------------> */
