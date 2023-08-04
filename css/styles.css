@@ -82,6 +82,19 @@ img {
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* <!-- !!!HEADER!!! ---------------------------------------------------------------------------> */
 .header {
   border-bottom: 1px solid var(--modal-background);
@@ -114,7 +127,6 @@ img {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  
 }
 .header-list {
   display: flex;
@@ -183,7 +195,7 @@ img {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
-  border: none; 
+  border: none;
 }
 
 .hero-btn:hover,
@@ -200,7 +212,7 @@ img {
 }
 .advantages-list {
   display: flex;
-  gap: 24;
+  gap: 24px;
 }
 .advantages-list-item {
 }
@@ -244,10 +256,14 @@ img {
 }
 .team-list-item {
   background-color: var(--white-background);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-image {
-  margin-bottom: 32px;
 }
+.team-text-container {
+  padding: 32px 0;
+}
+
 .team-list-title {
   color: var(--shadows);
   text-align: center;
@@ -255,7 +271,6 @@ img {
 }
 .team-list-text {
   text-align: center;
-  margin-bottom: 32px;
 }
 /* <!-- !!!FOOTER!!! ---------------------------------------------------------------------------> */
 .footer {
@@ -264,6 +279,7 @@ img {
   padding-top: 100px;
 }
 .footer-logo {
+  display: inline-block;
   color: var(--accent);
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
@@ -271,6 +287,7 @@ img {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
+  margin-bottom: 16px;
 }
 .footer-logo-element {
   color: var(--light-background);
