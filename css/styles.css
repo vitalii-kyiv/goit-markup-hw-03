@@ -215,7 +215,7 @@ img {
   gap: 24px;
 }
 .advantages-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .advantages-item-title {
   color: var(--shadows);
@@ -328,7 +328,7 @@ img {
   cursor: pointer;
   border: none;
   padding: 12px 24px;
-  border: 1px solid var(--secondary-light-background);
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
 
